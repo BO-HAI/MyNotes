@@ -7,5 +7,9 @@
 import styles from './grid.css';
 import stylesScss from '../sass/grid.scss';
 
-let a = 0;
-document.write('css栅栏系统演示2');
+import {aa} from './a.js';
+
+console.log(aa);
+
+let a = aa(5);
+document.write('css栅栏系统演示' + a);

@@ -54,16 +54,18 @@
 
 	var _grid4 = _interopRequireDefault(_grid3);
 
+	var _a = __webpack_require__(7);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	/**
-	 * @file:
-	 * @author: bohai (bohai@100.com).
-	 * @date: 16/11/16
-	 */
+	console.log(_a.aa); /**
+	                     * @file:
+	                     * @author: bohai (bohai@100.com).
+	                     * @date: 16/11/16
+	                     */
 
-	var a = 0;
-	document.write('css栅栏系统演示2');
+	var a = (0, _a.aa)(5);
+	document.write('css栅栏系统演示' + a);
 
 /***/ },
 /* 1 */
@@ -418,6 +420,29 @@
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 6 */,
+/* 7 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	/**
+	 * @file:
+	 * @author: bohai (bohai@100.com).
+	 * @date: 16/11/21
+	 */
+
+	function a(s) {
+	    var x = 1 + s;
+	    return x;
+	}
+
+	exports.aa = a;
 
 /***/ }
 /******/ ]);
