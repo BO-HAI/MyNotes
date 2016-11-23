@@ -11,5 +11,7 @@ import {aa} from './a.js';
 
 console.log(aa);
 
+let c = Array.of(1, 2, 3);
 let a = aa(5);
 document.write('css栅栏系统演示' + a);
+console.log(c);

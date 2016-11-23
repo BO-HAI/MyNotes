@@ -5,7 +5,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var ROOT_PATH = path.resolve(__dirname);
 
 module.exports = {
-    entry: "./src/entry.js",
+    entry: ["babel-polyfill", "./src/entry.js"],
     output: {
         path: __dirname,
         filename: "js/bundle.js"
