@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/**
+ * @file: 
+ * @author: bohai(bohai@100.com).
+ * @date: 16/11/18
+ */
+/**
+
+假设：Flowline的宽度为W，column的宽度为c，Gutter的宽度为g，Margin的宽度为m，栅格列数为N
+
+W = c*N + g*(N-1) + 2m；
+
+1200 ＝ c * 12 + (15*2) * (12 - 1) + 15 * 2
+
+1200 ＝ c * 12 + 30 * 11 + 30
+
+1200 = c * 12 + 330 + 30
+
+1200 = c * 12 + 360
+
+1200 - 360 = c * 12
+
+840 / 12 =  70 = c
+
+**/
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: auto; }
+
+.row {
+  margin: 0 -15px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center; }
+
+.column {
+  padding: 0 15px;
+  float: left;
+  box-shadow: 15px 0 0 #333333 inset, -15px 0 0 #333333 inset; }
+
+.col-1 {
+  width: 70px; }
+
+.col-2 {
+  width: 170px; }
+
+.col-3 {
+  width: 270px; }
+
+.col-4 {
+  width: 370px; }
+
+.col-5 {
+  width: 470px; }
+
+.col-6 {
+  width: 570px; }
+
+.col-7 {
+  width: 670px; }
+
+.col-8 {
+  width: 770px; }
+
+.col-9 {
+  width: 870px; }
+
+.col-10 {
+  width: 970px; }
+
+.col-11 {
+  width: 1070px; }
+
+.col-12 {
+  width: 1170px; }
