@@ -4,6 +4,8 @@
  * @date: 16/11/16
  */
 
+import babelPolyfill from "babel-polyfill";
+
 import styles from './grid.css';
 import stylesScss from '../sass/grid.scss';
 
